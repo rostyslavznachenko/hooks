@@ -18,7 +18,7 @@ public class SimpleTest {
         String valueToFailTest = "fail";
         searchInput.sendKeys(Keys.chord(searchValue, Keys.ENTER));
         System.out.println(browser.getTitle());
-        Assert.assertTrue(browser.getTitle().contains(searchValue));
+        Assert.assertTrue(browser.getTitle().contains(valueToFailTest));
         browser.quit();
     }
 }
