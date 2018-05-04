@@ -6,6 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SimpleTest {
+    
     @Test
     public void testingHooksIntegrationWithJenkins() {
         System.setProperty("webdriver.chrome.driver", ".//src//main//resources//chromedriver.exe");
