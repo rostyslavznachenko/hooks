@@ -15,7 +15,7 @@ public class SimpleTest {
         browser.get("https://www.google.com/");
         WebElement searchInput = new WebDriverWait(browser, 10)
                 .until(ExpectedConditions.visibilityOfElementLocated(By.id("lst-ib")));
-        String searchValue = "Testing hooks";
+        String searchValue = "testing hooks";
         String valueToFailTest = "failed";
         searchInput.sendKeys(Keys.chord(searchValue, Keys.ENTER));
         System.out.println(browser.getTitle());
