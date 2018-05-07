@@ -4,7 +4,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
+/**
+ * Simple Test class
+ * 
+ */
 public class SimpleTest {
     
     @Test
