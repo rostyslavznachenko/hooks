@@ -6,7 +6,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SimpleTest {
-    
+    /**
+     * testing pull request builder plugin
+     * */
     @Test
     public void testingHooksIntegrationWithJenkins() {
         System.setProperty("webdriver.chrome.driver", ".//src//main//resources//chromedriver.exe");
