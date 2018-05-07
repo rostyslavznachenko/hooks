@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 /**
  * Simple Test class
- * 
+ * for testing webhooks 
  */
 public class SimpleTest {
     
