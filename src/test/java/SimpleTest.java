@@ -20,7 +20,7 @@ public class SimpleTest {
         String newSearchValue = "webhooks";
 	searchInput.sendKeys(Keys.chord(newSearchValue, Keys.ENTER));
         System.out.println(browser.getTitle());
-        Assert.assertTrue(browser.getTitle().contains(searchValue));
+        Assert.assertTrue(browser.getTitle().contains(newSearchValue));
         browser.quit();
     }
 }
