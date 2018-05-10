@@ -17,7 +17,8 @@ public class SimpleTest {
                 .until(ExpectedConditions.visibilityOfElementLocated(By.id("lst-ib")));
         String searchValue = "testing hooks";
         String valueToFailTest = "failed";
-        searchInput.sendKeys(Keys.chord(searchValue, Keys.ENTER));
+        String newSearchValue = "webhooks";
+	searchInput.sendKeys(Keys.chord(newSearchValue, Keys.ENTER));
         System.out.println(browser.getTitle());
         Assert.assertTrue(browser.getTitle().contains(searchValue));
         browser.quit();
