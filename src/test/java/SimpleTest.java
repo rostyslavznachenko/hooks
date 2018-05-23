@@ -16,7 +16,7 @@ public class SimpleTest {
         WebElement searchInput = new WebDriverWait(browser, 10)
                 .until(ExpectedConditions.visibilityOfElementLocated(By.id("lst-ib")));
         String searchValue = "testing hooks";
-        String valueToFailTest = "failed";
+        String valueToFailTest = "ffdfdsfailed";
         searchInput.sendKeys(Keys.chord(searchValue, Keys.ENTER));
         System.out.println(browser.getTitle());
         Assert.assertTrue(browser.getTitle().contains(searchValue));
